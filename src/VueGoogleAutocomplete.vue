@@ -342,6 +342,7 @@
                     }
                 }
 
+                returnData['name'] = place.name;
                 returnData['latitude'] = place.geometry.location.lat();
                 returnData['longitude'] = place.geometry.location.lng();
                 return returnData
